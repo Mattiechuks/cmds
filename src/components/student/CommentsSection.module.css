@@ -1,0 +1,26 @@
+.commentsContainer {
+    padding: 20px;
+    background-color: #1f1b2e;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .commentsContainer h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #9a71d9;
+  }
+  
+  .commentBox {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .commentText, .replyText {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  

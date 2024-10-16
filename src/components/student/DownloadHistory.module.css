@@ -1,0 +1,31 @@
+.downloadsContainer {
+    padding: 20px;
+    background-color: #1f1b2e;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .downloadsContainer h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #9a71d9;
+  }
+  
+  .downloadBox {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .downloadTitle {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .downloadDetails {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,21 @@
+.input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .input::placeholder {
+    color: #aaa;
+  }
+  
+  @media (max-width: 768px) {
+    .input {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  

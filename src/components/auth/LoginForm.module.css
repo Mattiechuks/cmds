@@ -1,0 +1,123 @@
+.loginForm {
+  position: relative;
+  padding: 20px;
+  width: 350px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: auto !important;
+}
+
+.loginForm h1 {
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1.3em;
+  color: #333;
+}
+.toggleContainer {
+  margin-bottom: 15px;
+}
+
+.toggleLabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  color: #424242;
+}
+
+.toggleLabel input {
+  display: none;
+}
+
+.toggleSlider {
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.toggleLabel input:checked + .toggleSlider {
+  background-color:rgb(87, 56, 134);
+}
+
+.toggleSlider::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  top: 1px;
+  left: 1px;
+  transition: transform 0.2s;
+}
+
+.toggleLabel input:checked + .toggleSlider::before {
+  transform: translateX(20px);
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #424242;
+}
+
+.loginForm input, .loginForm select {
+  width: 95%;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+.links {
+  margin-bottom: 15px;
+}
+
+.link {
+  color: #191919;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.loginButton {
+  padding: 10px 20px;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(87, 56, 134);
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: #28104e;
+}
+
+.signup {
+  margin-top: 20px;
+  color: #333;
+}

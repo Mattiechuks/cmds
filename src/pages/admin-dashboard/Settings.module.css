@@ -1,0 +1,85 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #5e4f74;
+}
+
+.mainContent {
+  position: relative;
+  width: 72%;
+  left: 23%;
+  padding: 25px;
+  overflow-y: auto;
+}
+
+.topBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sidebar {
+  background-color: #1f1b2e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.sidebarItem {
+  width: 100%;
+  padding: 15px 20px;
+  color: #ecf0f1;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.sidebarItem:hover {
+  background-color: #075fec;
+  border-radius: 8px;
+}
+
+.profileIcon {
+  width: 50px;
+  height: 50px;
+  background-color: #ecf0f1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.clicked {
+  display: flex;
+  background-color: #075fec;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    width: 62%;
+    left: 32%;
+  }
+
+  .clicked {
+    width: 190px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainContent {
+    width: 50%;
+    left: 25%;
+  }
+}

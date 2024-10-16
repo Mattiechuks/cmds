@@ -1,0 +1,31 @@
+.notificationsContainer {
+    padding: 20px;
+    background-color: #1f1b2e;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .notificationsContainer h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #9a71d9;
+  }
+  
+  .notificationBox {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .notificationMessage {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .notificationDate {
+    font-size: 14px;
+    color: #999;
+  }
+  

@@ -1,0 +1,26 @@
+.overviewContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .overviewBox {
+    padding: 20px;
+    background-color: #e0dddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overviewBox h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #2c3e50;
+  }
+  
+  .overviewBox p {
+    font-size: 24px;
+    color: #007bff;
+  }
+  

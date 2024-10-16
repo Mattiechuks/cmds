@@ -1,0 +1,31 @@
+.settingsContainer {
+    padding: 20px;
+    background-color: #1f1b2e;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .settingsContainer h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #9a71d9;
+  }
+  
+  .settingItem {
+    margin-bottom: 15px;
+  }
+  
+  .settingsContainer label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .settingsContainer input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,11 @@
+/* src/styles/Home.module.css */
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  

@@ -1,0 +1,32 @@
+{
+  "overview": {
+    "summary": "Lecturer overview summary..."
+  },
+  "recentUploads": [
+    { "id": 1, "title": "Lecture Notes Week 1", "date": "2024-10-01" },
+    { "id": 2, "title": "Assignment 1", "date": "2024-10-02" },
+    { "id": 3, "title": "Project Guidelines", "date": "2024-10-03" }
+  ],
+  "comments": [
+    { "id": 1, "student": "John Doe", "comment": "Great lecture on data structures.", "date": "2024-10-01" },
+    { "id": 2, "student": "Jane Smith", "comment": "Can you provide more examples?", "date": "2024-10-02" }
+  ],
+  "analytics": [
+    { "id": 1, "metric": "Total Uploads", "value": 120 },
+    { "id": 2, "metric": "Student Comments", "value": 300 },
+    { "id": 3, "metric": "Downloads", "value": 450 }
+  ],
+  "materials": [
+    { "id": 1, "title": "Course Material 1", "date": "2024-10-01" },
+    { "id": 2, "title": "Course Material 2", "date": "2024-10-02" },
+    { "id": 3, "title": "Course Material 3", "date": "2024-10-03" }
+  ],
+    "profile": {
+    "fullName": "Dr. John Doe",
+    "email": "johndoe@example.com",
+    "academicQualification": "PhD in Computer Science",
+    "courseTaught": "Data Structures and Algorithms",
+    "department": "Computer Science",
+    "phoneNumber": "123-456-7890"
+  }
+}

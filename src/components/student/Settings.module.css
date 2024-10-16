@@ -1,0 +1,27 @@
+.container {
+    padding: 20px;
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    color: #2c3e50;
+  }
+  
+  .container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #34495e;
+  }
+  
+  .container input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .container select {
+    margin-left: 10px;
+  }
+  
+  .container button {
+    margin-top: 20px;
+  }
+  

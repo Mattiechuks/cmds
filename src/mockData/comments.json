@@ -1,0 +1,5 @@
+[
+    { "id": 1, "studentName": "Alice Johnson", "comment": "Great lecture on AI!", "reply": "Thank you!" },
+    { "id": 2, "studentName": "Bob Brown", "comment": "Could you provide more examples?", "reply": "Sure, I will add more examples next time." }
+  ]
+  

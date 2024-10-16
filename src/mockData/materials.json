@@ -1,0 +1,6 @@
+[
+    { "id": 1, "title": "Introduction to AI", "uploadedBy": "Jane Smith", "date": "2024-01-01" },
+    { "id": 2, "title": "Advanced Machine Learning", "uploadedBy": "Jane Smith", "date": "2024-02-01" },
+    { "id": 3, "title": "Data Science Basics", "uploadedBy": "Jane Smith", "date": "2024-03-01" }
+  ]
+  

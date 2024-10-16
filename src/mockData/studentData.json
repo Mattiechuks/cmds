@@ -1,0 +1,45 @@
+{
+  "overview": {
+    "summary": "Student overview summary..."
+  },
+  "courseMaterials": [
+    { "id": 1, "title": "Course Material 1", "uploadedBy": "Lecturer User", "date": "2024-10-01" },
+    { "id": 2, "title": "Course Material 2", "uploadedBy": "Lecturer User", "date": "2024-10-02" }
+  ],
+  "comments": [
+    { "id": 1, "student": "Student User", "comment": "This is a comment.", "reply": "This is a reply." },
+    { "id": 2, "student": "Student User", "comment": "Another comment.", "reply": "Another reply." }
+  ],
+  "downloads": [
+    { "id": 1, "title": "Download 1", "uploadedBy": "Lecturer User", "date": "2024-10-01" },
+    { "id": 2, "title": "Download 2", "uploadedBy": "Lecturer User", "date": "2024-10-02" }
+  ],
+  "recentDownloads": [
+    { "id": 1, "title": "Recent Download 1", "uploadedBy": "Lecturer User", "date": "2024-10-01" },
+    { "id": 2, "title": "Recent Download 2", "uploadedBy": "Lecturer User", "date": "2024-10-02" }
+  ],
+  "profile": {
+    "fullName": "Student User",
+    "email": "student@example.com",
+    "program": "Computer Science",
+    "level": "400",
+    "semester": "Second",
+    "phoneNumber": "123456789"
+  },
+  "settings": {
+    "username": "student_user",
+    "email": "student@example.com",
+    "twoFactorAuth": true,
+    "notifications": true,
+    "pushNotifications": true,
+    "courseNotifications": false,
+    "public": false,
+    "lecturersOnly": false,
+    "private": true,
+    "dataSharing": true
+  },
+  "notifications": [
+    { "id": 1, "message": "New assignment posted", "date": "2024-10-01" },
+    { "id": 2, "message": "Course material updated", "date": "2024-10-02" }
+  ]
+}

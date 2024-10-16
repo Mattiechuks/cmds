@@ -1,0 +1,36 @@
+.sidebar {
+    background-color: #1f1b2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .sidebarItem {
+    width: 100%;
+    padding: 15px 20px;
+    color: #ecf0f1;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebarItem:hover {
+    background-color: #075fec;
+    border-radius: 8px;
+  }
+  
+  .clicked {
+    display: flex;
+    background-color: #075fec;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+  }
+  
